@@ -1,6 +1,6 @@
 
 --------------------DB-SCRIPTS(OTP_LOGIN)---------------------------
-ALTER TABLE ride_request CHANGE minimum_fare night_fare double;
+ALTER TABLE ride_requests CHANGE minimum_fare night_fare double;
 ALTER TABLE services CHANGE minimum_fare night_fare double;
 ALTER TABLE users ADD isRiderRegistered boolean;
 ---------------------new changes-----------------------------------------
